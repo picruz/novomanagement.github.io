@@ -1,0 +1,203 @@
+body {
+
+    background-color:  rgb(182, 182, 238);
+}
+header {
+
+    font: normal 20px "tahoma"; 
+
+}
+
+
+ol {
+  font-family: Tahoma;
+  font-size: 20px; 
+  list-style: none;
+}
+
+.indexNosotros {
+      display: flex;
+      flex-direction: row; 
+      font-size: 20px;
+      font-family: Tahoma;
+      text-align: center;
+      block-size: 150px;
+      padding: 20px;
+      border-radius: 0.5rem; 
+      background-color: rgb(112, 130, 236);
+      margin: 10px;
+  }
+
+p {
+padding: 10px;
+
+}
+
+.indexServicios {
+
+    display: flex;
+    flex-direction:row; 
+    font-size: 20px;
+    font-family: Tahoma;
+    text-align: center;
+    block-size: 150px;
+    padding: 5px;
+    border-radius: 0.5rem; 
+    background-color: rgb(59, 67, 112);
+    margin: 10px;
+
+}
+
+.hacemos {
+
+  display: flex;
+  flex-direction:row; 
+  font-size: 16px;
+  font-family: Tahoma;
+  text-align: center;
+  block-size: 150px;
+  padding: 5px;
+  border-radius: 0.5rem; 
+  background-color: rgb(112, 130, 236);
+  margin: 10px;
+
+}
+.blog {
+
+/*   display: flex; */
+/*   flex-direction:row;  */
+  font-size: 14x;
+  font-family: Tahoma;
+  text-align: center;
+  block-size: 220px;
+  padding: 5px;
+  border-radius: 0.5rem; 
+  background-color: rgb(112, 130, 236);
+  margin: 10px;
+
+}
+.contacto {
+
+  display: flex;
+  flex-direction:row; 
+  font-size: 16px;
+  font-family: Tahoma;
+  text-align: center;
+  /* block-size: 750px; */
+  padding: 5px;
+  border-radius: 0.5rem; 
+/*   background-color: rgb(135, 145, 206); */
+  margin: 10px;
+
+}
+table{
+  font-size: 12px;
+
+}
+h1 {
+  /* propiedades decorativas */
+  font-size: 25px;
+  font-family: Tahoma;
+  margin: 20px; 
+  padding: 10px;
+}
+
+
+h2 {
+  /* propiedades decorativas */
+  font-size: 14px;
+  font-family: Tahoma;
+  margin: 20px; }
+
+h3 {
+/* propiedades decorativas */
+font-family: Tahoma;
+font-size: 30px; 
+margin: 25px; 
+}
+
+table {
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+form {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small; }
+
+footer {
+  color: #138080;
+  font-family: tahoma;
+  font-size: 70%;
+  font-style: italic;
+  line-height: 1.6; }
+
+.breadcrumb {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0.75rem 1rem;
+    margin: 10px;
+    list-style: none;
+    background-color:rgb(164, 173, 199);
+    border-radius: 0.5rem; 
+    align-items: center;
+    font-style: bold tahoma white;
+    text-decoration: none;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    display: inline-block;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    color: #0f558f;
+    content: "       ";
+    align-items:center;
+}
+
+.breadcrumb-item + .breadcrumb-item:hover::before {
+  text-decoration: underline; }
+
+.breadcrumb-item + .breadcrumb-item:hover::before {
+  text-decoration: none; }
+
+.breadcrumb-item.active {
+  color: #6c757d; }
+
+.carousel {
+  position: relative; }
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden; }
+
+.carousel-item {
+  position: relative;
+  display: none;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  transition: -webkit-transform 0.6s ease;
+  transition: transform 0.6s ease;
+  transition: transform 0.6s ease, -webkit-transform 0.6s ease;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-perspective: 1000px;
+  perspective: 1000px; }
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+  display: block; }
+
+.carousel-item-next,
+.carousel-item-prev {
+  position: absolute;
+  top: 0; }
+
+.carousel-item-next.carousel-item-left,
+.carousel-item-prev.carousel-item-right {
+  -webkit-transform: translateX(0);
+  transform: translateX(0); }
